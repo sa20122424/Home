@@ -1,0 +1,104 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+      
+
+    margin: 0;
+
+      font-family: "Roboto";
+background-color: black;
+ color: white;  
+}
+.hea{
+    background-color: black;
+    color: white;
+}
+.conteiner{
+    margin: 0 auto;
+    padding: 20px;
+    width: 1400px;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+
+}
+.li:hover{
+
+    transition:0.30s ease;
+font-size: 25px;
+color: blue;
+}
+.btn-log_in{
+
+    width: 150px;
+    padding: 15px;
+border: none;
+border-radius: 10px;
+background-color: blue;
+color: white;
+
+}
+.sec{
+    background-color: black;
+  
+}
+.sec-my{
+    display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.h1-my{
+    
+    width: 300px;
+    font-size: 55px;
+    text-align: center;
+    
+
+}
+.sec-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px  ;
+    
+ 
+
+
+}
+.h1-box{
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+
+
+}
+.sec-img{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img{
+    width:200px;
+ 
+}
+.img1{
+    width: 150px;
+}
+.sec-program{
+   margin-top: 20px;
+}
